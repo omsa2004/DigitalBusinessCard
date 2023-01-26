@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  height: 100vh;
+  background-color: #1c1c1c;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.mainbody {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  height: 868px;
+  background: #23252c;
+}
+.cardInfo {
+  width: 317px;
+  background: #1a1b21;
+}
+.cardInfo > img {
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+.infoheader {
+  font-family: "Inter";
+  font-style: normal;
+  text-align: center;
+}
+.infoheader > h2 {
+  font-weight: 700;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 3px;
+}
+.infoheader > h4 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12.8px;
+  color: #f3bf99;
+}
+.infoheader > p {
+  font-weight: 400;
+  font-size: 10.24px;
+  color: #f5f5f5;
+}
+.buttonsection {
+  display: flex;
+  justify-content: space-around;
+}
+.buttonsection > button {
+  display:  flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter";
+  font-style: normal;
+  width: 115px;
+  height: 30px;
+  font-weight: 500;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+.buttonsection > button > svg {
+  padding-right: 3px;
+  font-size: 16px;
+}
+.buttonsection > button:last-child {
+  background: #5093e2;
+  border: 1px solid #5093e2;
+  color: white;
+}
+.cardAbout {
+  padding-top: 15px;
+  width: 317px;
+  background: #1a1b21;
+  color: #dcdcdc;
+}
+.cardAbout > h3 {
+  width: 247px;
+  margin: auto;
+}
+.cardAbout > p {
+  width: 247px;
+  margin: 10px auto;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #161619;
+  width: 317px;
+  height: 64px;
+  border-radius: 0px 0px 10px 10px;
+  color: #918e9b;
+  font-size: 1.8rem;
+}
