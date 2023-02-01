@@ -4,7 +4,7 @@ import { FaEnvelope, FaLinkedin } from "react-icons/fa";
 export default function Info() {
   return (
     <div className="cardInfo">
-      <img src="./src/images/Rectangle_90.png" />
+      <img src="./images/Rectangle_90.png" />
       <div className="infoheader">
         <h2>Laura Smith</h2>
         <h4>Frontend Developer</h4>
